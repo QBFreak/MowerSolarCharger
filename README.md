@@ -38,4 +38,4 @@ I've had too many automotive relays die on me over the years to make the all-in 
 
 v0.2
 
-![Solar Charger v0.2](https://raw.githubusercontent.com/QBFreak/MowerSolarCharger/master/solarcharger.sch.svg)
+![Solar Charger v0.2](./solarcharger.sch.svg)
