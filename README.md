@@ -36,6 +36,6 @@ I've had too many automotive relays die on me over the years to make the all-in 
 
 ## Schematic
 
-v0.2
+v0.2 ([PDF](./solarcharger.pdf))
 
 ![Solar Charger v0.2](./solarcharger.sch.svg)
