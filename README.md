@@ -34,3 +34,8 @@ All of these are optional and can be skipped to save a few dollars.
 If you forego the relay sockets, you can get by with female spade connectors.
 I've had too many automotive relays die on me over the years to make the all-in commitment of soldering the wires to the terminals.
 
+## Schematic
+
+v0.2
+
+![Solar Charger v0.2](https://raw.githubusercontent.com/QBFreak/MowerSolarCharger/master/solarcharger.sch.svg)
