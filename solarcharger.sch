@@ -52,7 +52,7 @@ F 1 "Battery" V 1250 1250 50  0000 L CNN
 F 2 "" V 1000 1390 50  0000 C CNN
 F 3 "" V 1000 1390 50  0000 C CNN
 	1    1000 1350
-	0    1    -1   0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L SOLAR_CHARGER U2
@@ -109,107 +109,74 @@ F 3 "" H 1000 2250 50  0000 C CNN
 	1    1000 2250
 	0    -1   1    0   
 $EndComp
-$Comp
-L D D1
-U 1 1 5BB5B914
-P 1050 1800
-F 0 "D1" V 1150 1650 50  0000 C CNN
-F 1 "D" V 1050 1650 50  0000 C CNN
-F 2 "" H 1050 1800 50  0000 C CNN
-F 3 "" H 1050 1800 50  0000 C CNN
-	1    1050 1800
-	0    -1   -1   0   
-$EndComp
 NoConn ~ 3550 2600
-Wire Wire Line
-	3250 1350 3250 2350
-Wire Wire Line
-	3250 2350 2600 2350
-Wire Wire Line
-	2600 2350 2600 2050
-Wire Wire Line
-	4650 2800 3550 2800
-Wire Wire Line
-	2750 2700 2500 2700
-Wire Wire Line
-	850  1000 850  2050
-Wire Wire Line
-	1150 1500 1150 1350
-Wire Wire Line
-	950  1500 1150 1500
-Wire Wire Line
-	950  1500 950  2050
-Wire Wire Line
-	1050 1650 1050 1500
-Connection ~ 1050 1500
-Wire Wire Line
-	1050 1950 1050 2050
-Wire Wire Line
-	950  2800 950  3000
-Wire Wire Line
-	950  3000 2250 3000
-Wire Wire Line
-	2250 3000 2250 2050
-Wire Wire Line
-	850  2800 850  3100
-Wire Wire Line
-	850  3100 2350 3100
-Wire Wire Line
-	2350 3100 2350 2050
-Wire Wire Line
-	2750 3000 2350 3000
-Connection ~ 2350 3000
-Wire Wire Line
-	2750 2900 1050 2900
-Wire Wire Line
-	1050 2900 1050 2800
-Wire Wire Line
-	2500 2700 2500 2050
-Wire Wire Line
-	4650 2800 4650 1350
-Wire Wire Line
-	2850 2050 2850 2250
-Wire Wire Line
-	2850 2250 2350 2250
-Connection ~ 2350 2250
-Wire Wire Line
-	2750 2050 2750 2150
-Wire Wire Line
-	2750 2150 2100 2150
-Wire Wire Line
-	2100 2150 2100 2800
-Wire Wire Line
-	2100 2800 1150 2800
-$Comp
-L LED D2
-U 1 1 5BB5C4DB
-P 1450 1750
-F 0 "D2" H 1450 1850 50  0000 C CNN
-F 1 "LED" H 1450 1650 50  0000 C CNN
-F 2 "" H 1450 1750 50  0000 C CNN
-F 3 "" H 1450 1750 50  0000 C CNN
-	1    1450 1750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1150 2050 1150 1950
-Wire Wire Line
-	1150 1950 1450 1950
-Wire Wire Line
-	1450 1550 1450 1000
-Wire Wire Line
-	1450 1000 850  1000
-Connection ~ 850  1350
-Text Notes 1700 2000 1    60   ~ 0
-CHARGING
-Text Notes 1150 950  0    60   ~ 0
-Relay on Pin 4\nto starter\nlockout circuit?
 Text Notes 4000 4350 2    60   ~ 0
 Mower Solar Charger with Automatic Panel Shutoff
 Text Notes 3000 4500 2    60   ~ 0
 2018-10-03
 Text Notes 5000 4500 2    60   ~ 0
-0.1
+0.2
 Text Notes 1550 3850 0    60   ~ 0
 Schematic of Solar Charger for Lawnmower battery, with automatic shutoff of\nSolar Panel when charger is disconnected from Mower.\n\nFuture version may include starter lockout when charging
+Connection ~ 2250 2900
+Wire Wire Line
+	850  3000 850  2800
+Wire Wire Line
+	2250 3000 850  3000
+Wire Wire Line
+	1250 1850 1250 1350
+Wire Wire Line
+	850  2050 850  1350
+Connection ~ 2350 2250
+Wire Wire Line
+	2850 2250 2350 2250
+Wire Wire Line
+	2850 2050 2850 2250
+Wire Wire Line
+	4650 2800 4650 1350
+Wire Wire Line
+	2500 2700 2500 2050
+Wire Wire Line
+	2350 3100 2350 2050
+Wire Wire Line
+	2250 3000 2250 2050
+Wire Wire Line
+	2750 2700 2500 2700
+Wire Wire Line
+	4650 2800 3550 2800
+Wire Wire Line
+	2600 2350 2600 2050
+Wire Wire Line
+	3250 2350 2600 2350
+Wire Wire Line
+	3250 1350 3250 2350
+Wire Wire Line
+	2750 2900 2250 2900
+Wire Wire Line
+	1250 1350 1150 1350
+Wire Wire Line
+	1150 2050 1150 1850
+Wire Wire Line
+	1150 1850 1250 1850
+Wire Wire Line
+	1050 3100 2350 3100
+Wire Wire Line
+	1150 3100 1150 2800
+Wire Wire Line
+	1050 2050 1050 1950
+Wire Wire Line
+	1050 1950 950  1950
+Wire Wire Line
+	950  1950 950  2050
+Wire Wire Line
+	1050 3100 1050 2800
+Connection ~ 1150 3100
+Wire Wire Line
+	950  2800 950  3250
+Wire Wire Line
+	950  3250 2500 3250
+Wire Wire Line
+	2500 3250 2500 3000
+Wire Wire Line
+	2500 3000 2750 3000
 $EndSCHEMATC
